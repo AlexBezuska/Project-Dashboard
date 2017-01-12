@@ -1,16 +1,16 @@
 var express = require('express');
+var fs = require('fs');
 var router = express.Router();
-
 var projects = [];
 
-const testFolder = '/Users/abezuska/projects/';
-const fs = require('fs');
-fs.readdir(testFolder, (err, files) => {
+var projectsFolder = '/Users/abezuska/projects/';
+
+fs.readdir(projectsFolder, (err, files) => {
   files.forEach(function(file){
     var obj = {};
     if (file.substring(0, 1) == ".") return;
     try{
-      var packageJson = require(testFolder + file + "/package.json");
+      var packageJson = require(projectsFolder + file + "/package.json");
       obj.name = packageJson.name;
       obj.version = packageJson.version;
       var firstName = packageJson.author.split(" ")[0];
@@ -32,7 +32,7 @@ fs.readdir(testFolder, (err, files) => {
 router.get('/', function(req, res, next) {
   res.render('home', {
     projects: projects,
-    directory: testFolder,
+    directory: projectsFolder,
     layout: 'main'});
 });
 
