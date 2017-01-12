@@ -22,7 +22,7 @@ Displays a web page with cards for each of your projects and buttons for
 var projectsFolder = '/Users/abezuska/projects/';
 ```
 
-* In `/routes/open.js` replace this variable with your local project folder's absolute path:
+* In `/routes/open.js` replace these variables with your editor of choice and your computers terminal directory open command (ex. 'open' on OSX or 'nautilus' on Ubuntu gnome):
 ```
 var editorCommand = 'atom';
 ```
