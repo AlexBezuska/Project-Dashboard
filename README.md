@@ -25,6 +25,7 @@ var projectsFolder = '/Users/abezuska/projects/';
 * In `/routes/open.js` replace these variables with your editor of choice and your computers terminal directory open command (ex. 'open' on OSX or 'nautilus' on Ubuntu gnome):
 ```
 var editorCommand = 'atom';
+var openCommand = 'open';
 ```
 * Navigate to the project in your terminal
 * Run `npm install` to download the project's dependencies
