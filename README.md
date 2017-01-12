@@ -1,6 +1,15 @@
 # Project-Dashboard
 
-Displays a web page with cards for each of your projects and buttons for
+Displays a web page with cards for each of your projects and buttons for 
+
+* opening project in your editor of choice
+* opening the project directory
+
+**...and if the project has a `package.json` file:**
+* Author
+* Description
+* Github link
+* Github Issues link
 
 ## Instructions
 
