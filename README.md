@@ -10,7 +10,7 @@ Displays a web page with cards for each of your projects and buttons for
 * Clone this repository or download the zip
 * In `/routes/home.js` replace this variable with your local project folder's absolute path:
 ```
-var testFolder = '/Users/abezuska/projects/';
+var projectsFolder = '/Users/abezuska/projects/';
 ```
 
 * In `/routes/open.js` replace this variable with your local project folder's absolute path:
