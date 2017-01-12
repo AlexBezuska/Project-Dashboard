@@ -1,0 +1,51 @@
+body {
+  background-image: repeating-linear-gradient(-45deg, #14b9cf, #dbdc4f);
+  background-attachment: fixed; }
+
+.bg-inverse {
+  background: rgba(0, 0, 0, 0.8) !important; }
+
+.2lnMax {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+  line-height: 16px;
+  /* fallback */
+  max-height: 32px;
+  /* fallback */
+  -webkit-line-clamp: 2;
+  /* number of lines to show */
+  -webkit-box-orient: vertical; }
+
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+.offset-header {
+  margin-top: 3.5rem; }
+
+.module {
+  padding: 15px;
+  margin: 15px;
+  position: relative; }
+
+.h250 {
+  height: 250px; }
+
+.card {
+  background: white;
+  border-radius: 5px;
+  filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3)); }
+
+.-bold {
+  font-weight: bold; }
+
+.-center-at-btm {
+  position: absolute;
+  bottom: 15px; }
+  .-center-at-btm div {
+    margin: 0 auto; }
+
+/*# sourceMappingURL=main.css.map */

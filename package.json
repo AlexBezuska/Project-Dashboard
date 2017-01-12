@@ -1,0 +1,29 @@
+{
+  "name": "project-dashboard",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexbezuska/project-dashboard.git"
+  },
+  "author": "Alex Bezuska <abezuska@gmail.com> (http://alexbezuska.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexbezuska/project-dashboard/issues"
+  },
+  "homepage": "https://github.com/alexbezuska/project-dashboard#readme",
+  "dependencies": {
+    "body-parser": "~1.15.1",
+    "child_process": "^1.0.2",
+    "cookie-parser": "~1.4.3",
+    "express": "~4.13.4",
+    "express-autoprefixer": "^5.1.1",
+    "express-handlebars": "^3.0.0",
+    "node-sass-middleware": "0.8.0",
+    "serve-favicon": "~2.3.0"
+  }
+}

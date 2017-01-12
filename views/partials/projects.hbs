@@ -1,0 +1,23 @@
+{{#each projects}}
+<div class="col-sm-12 col-md-6 col-lg-4">
+  <div class="module h250 card">
+    <p class="name"><span class='-bold'>{{name}}</span> {{version}}</p>
+    {{#if author}}<p class="author 2lnMax">by {{author}}</p>{{/if}}
+
+    <!-- {{#if authorWebsite}}<a class="btn btn-primary" href="{{authorWebsite}}"><span class="glyphicon glyphicon-globe" aria-hidden="true"><span></a>{{/if}}
+    {{#if authorEmail}}<a class="btn btn-primary" href="mailto:{{authorEmail}}"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a>{{/if}} -->
+
+    <p class="description 2lnMax">{{description}}</p>
+
+    <div class="-center-at-btm">
+      <div class="btn-group" role="group" aria-label="...">
+        <a href='/open?path={{../directory}}{{fileName}}&command=atom' class="btn btn-default">atom</a>
+        <a href='/open?path={{../directory}}{{fileName}}&command=open' class="btn btn-default">local</a>
+        {{#if github}}<a href="{{github}}" class="btn btn-default">github</a>{{/if}}
+        {{#if issues}}<a href="{{issues}}" class="btn btn-default">add issue</a>{{/if}}
+      </div>
+    </div>
+
+  </div>
+</div>
+{{/each}}

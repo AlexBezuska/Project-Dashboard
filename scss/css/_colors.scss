@@ -1,0 +1,15 @@
+
+$chartruese: rgb(219,220,79);
+
+$cerulean: rgb(20,185,207);
+
+body{
+  background-image:repeating-linear-gradient(-45deg, $cerulean,$chartruese);
+   background-attachment: fixed;
+}
+
+
+.bg-inverse{
+  background: rgba(0,0,0,0.8) !important;
+
+}

@@ -1,0 +1,21 @@
+@import"colors";
+@import"typography";
+@import"structure";
+
+.card{
+  background: white;
+  border-radius: 5px;
+  filter:drop-shadow(1px 1px 3px rgba(0,0,0,0.3));
+}
+
+.-bold {
+  font-weight:bold;
+}
+
+.-center-at-btm{
+  position: absolute;
+  bottom: 15px;
+  div{
+    margin: 0 auto;
+  }
+}
